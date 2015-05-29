@@ -27,4 +27,6 @@
 
 @interface XLFormSwitchCell : XLFormBaseCell
 
+- (UISwitch *)switchControl;
+
 @end

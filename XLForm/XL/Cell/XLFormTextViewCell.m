@@ -37,11 +37,12 @@ NSString *const kFormTextViewCellPlaceholder = @"placeholder";
 
 @implementation XLFormTextViewCell
 {
-    NSMutableArray * _dynamicCustomConstraints;
+    //NSMutableArray * _dynamicCustomConstraints;
 }
 
 @synthesize textLabel = _textLabel;
 @synthesize textView = _textView;
+@synthesize _dynamicCustomConstraints;
 
 -(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

@@ -225,7 +225,7 @@
     self.rowDescriptor.value = sender.date;
     self.detailTextLabel.text = [self valueDisplayText];
     [self setNeedsLayout];
-    
+    [self update];
 }
 
 -(void)setFormDatePickerMode:(XLFormDateDatePickerMode)formDatePickerMode
